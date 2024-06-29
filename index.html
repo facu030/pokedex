@@ -1,24 +1,331 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="">
-    <meta name="descripcion">
-    <meta name="keywords">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="" />
+    <meta name="descripcion" />
+    <meta name="keywords" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Pokedex</title>
-</head>
-<body>
-    <header></header>
-    <main></main>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="bg-success-subtle">
+      <section
+        class="container-fluid text-danger border-bottom border-danger pt-2 my-4"
+      >
+        <h2><b>Rolling Code <div class="vr br"></div> Pokedex</b></h2>
+      </section>
+
+      <section class="container">
+        <div class="row justify-content-center justify-content-md-around">
+          <div
+            class="col-10 col-sm-5 mx-sm-3 col-md-3 mx-md-4 mb-5 mt-3 pt-2 pb-4 bg-light rounded-3 border border border-secondary-subtle"
+          >
+            <a href="#">
+              <img
+                src="./img/imgpokemones/001.png"
+                alt="bulbasaur"
+                class="bg-body-secondary img img-fluid rounded-3 d-block"
+              />
+            </a>
+            <div class="ps-3 ps-md-1">
+              <p class="text-body-secondary mb-3">
+                <span>N.º</span>
+                0001
+              </p>
+              <h4 class="h3">Bulbasaur</h4>
+              <div class="badge rounded-pill text-bg-success">
+                <span>Planta</span>
+              </div>
+              <div class="badge rounded-pill colorpill">
+                <span>Veneno</span>
+              </div>
+              <article class="text-center my-2 pt-2 pe-3 pe-md-1">
+                <a href="" class="btn btn-primary w-100">Ver detalle</a>
+              </article>
+            </div>
+          </div>
+
+          <div
+            class="col-10 col-sm-5 mx-sm-3 col-md-3 mx-md-4 mb-5 mt-3 pt-2 pb-4 bg-light rounded-3 border border border-secondary-subtle"
+          >
+            <a href="#">
+              <img
+                src="./img/imgpokemones/002.png"
+                alt="Ivysaur"
+                class="bg-body-secondary img img-fluid rounded-3 d-block"
+              />
+            </a>
+            <div class="ps-3 ps-md-1">
+              <p class="text-body-secondary mb-3">
+                <span>N.º</span>
+                0002
+              </p>
+              <h4 class="h3">Ivysaur</h4>
+              <div class="badge rounded-pill text-bg-success">
+                <span>Planta</span>
+              </div>
+              <div class="badge rounded-pill colorpill">
+                <span>Veneno</span>
+              </div>
+              <article class="text-center my-2 pt-2 pe-3 pe-md-1">
+                <a href="" class="btn btn-primary w-100">Ver detalle</a>
+              </article>
+            </div>
+          </div>
+
+          <div
+            class="col-10 col-sm-5 mx-sm-3 col-md-3 mx-md-4 mb-5 mt-3 pt-2 pb-4 bg-light rounded-3 border border border-secondary-subtle"
+          >
+            <a href="#">
+              <img
+                src="./img/imgpokemones/003.png"
+                alt="Venusaur"
+                class="bg-body-secondary img img-fluid rounded-3 d-block"
+              />
+            </a>
+            <div class="ps-3 ps-md-1">
+              <p class="text-body-secondary mb-3">
+                <span>N.º</span>
+                0003
+              </p>
+              <h4 class="h3">Venusaur</h4>
+              <div class="badge rounded-pill text-bg-success">
+                <span>Planta</span>
+              </div>
+              <div class="badge rounded-pill colorpill">
+                <span>Veneno</span>
+              </div>
+              <article class="text-center my-2 pt-2 pe-3 pe-md-1">
+                <a href="" class="btn btn-primary w-100">Ver detalle</a>
+              </article>
+            </div>
+          </div>
+
+          <div
+            class="col-10 col-sm-5 mx-sm-3 col-md-3 mx-md-4 mb-5 mt-3 pt-2 pb-4 bg-light rounded-3 border border border-secondary-subtle"
+          >
+            <a href="#">
+              <img
+                src="./img/imgpokemones/004.png"
+                alt="Charmander"
+                class="bg-body-secondary img img-fluid rounded-3 d-block"
+              />
+            </a>
+            <div class="ps-3 ps-md-1">
+              <p class="text-body-secondary mb-3">
+                <span>N.º</span>
+                0004
+              </p>
+              <h4 class="h3">Charmander</h4>
+              <div class="badge rounded-pill colorfuergo">
+                <span>Fuego</span>
+              </div>
+              <article class="text-center my-2 pt-2 pe-3 pe-md-1">
+                <a href="" class="btn btn-primary w-100">Ver detalle</a>
+              </article>
+            </div>
+          </div>
+
+          <div
+            class="col-10 col-sm-5 mx-sm-3 col-md-3 mx-md-4 mb-5 mt-3 pt-2 pb-4 bg-light rounded-3 border border border-secondary-subtle"
+          >
+            <a href="#">
+              <img
+                src="./img/imgpokemones/005.png"
+                alt="Charmaleon"
+                class="bg-body-secondary img img-fluid rounded-3 d-block"
+              />
+            </a>
+            <div class="ps-3 ps-md-1">
+              <p class="text-body-secondary mb-3">
+                <span>N.º</span>
+                0005
+              </p>
+              <h4 class="h3">Charmeleon</h4>
+              <div class="badge rounded-pill colorfuergo">
+                <span>Fuego</span>
+              </div>
+              <article class="text-center my-2 pt-2 pe-3 pe-md-1">
+                <a href="" class="btn btn-primary w-100">Ver detalle</a>
+              </article>
+            </div>
+          </div>
+
+          <div
+            class="col-10 col-sm-5 mx-sm-3 col-md-3 mx-md-4 mb-5 mt-3 pt-2 pb-4 bg-light rounded-3 border border border-secondary-subtle"
+          >
+            <a href="#">
+              <img
+                src="./img/imgpokemones/006.png"
+                alt="Charizard"
+                class="bg-body-secondary img img-fluid rounded-3 d-block"
+              />
+            </a>
+            <div class="ps-3 ps-md-1">
+              <p class="text-body-secondary mb-3">
+                <span>N.º</span>
+                0004
+              </p>
+              <h4 class="h3">Charizard</h4>
+              <div class="badge rounded-pill colorfuergo">
+                <span>Fuego</span>
+              </div>
+              <article class="text-center my-2 pt-2 pe-3 pe-md-1">
+                <a href="" class="btn btn-primary w-100">Ver detalle</a>
+              </article>
+            </div>
+          </div>
+
+          <div
+            class="col-10 col-sm-5 mx-sm-3 col-md-3 mx-md-4 mb-5 mt-3 pt-2 pb-4 bg-light rounded-3 border border border-secondary-subtle"
+          >
+            <a href="#">
+              <img
+                src="./img/imgpokemones/007.png"
+                alt="Squirtle"
+                class="bg-body-secondary img img-fluid rounded-3 d-block"
+              />
+            </a>
+            <div class="ps-3 ps-md-1">
+              <p class="text-body-secondary mb-3">
+                <span>N.º</span>
+                0004
+              </p>
+              <h4 class="h3">Squirtle</h4>
+              <div class="badge rounded-pill text-bg-info">
+                <span>Agua</span>
+              </div>
+              <article class="text-center my-2 pt-2 pe-3 pe-md-1">
+                <a href="" class="btn btn-primary w-100">Ver detalle</a>
+              </article>
+            </div>
+          </div>
+
+          <div
+            class="col-10 col-sm-5 mx-sm-3 col-md-3 mx-md-4 mb-5 mt-3 pt-2 pb-4 bg-light rounded-3 border border border-secondary-subtle"
+          >
+            <a href="#">
+              <img
+                src="./img/imgpokemones/008.png"
+                alt="Wartortle"
+                class="bg-body-secondary img img-fluid rounded-3 d-block"
+              />
+            </a>
+            <div class="ps-3 ps-md-1">
+              <p class="text-body-secondary mb-3">
+                <span>N.º</span>
+                0004
+              </p>
+              <h4 class="h3">Wartortle</h4>
+              <div class="badge rounded-pill text-bg-info">
+                <span>Agua</span>
+              </div>
+              <article class="text-center my-2 pt-2 pe-3 pe-md-1">
+                <a href="" class="btn btn-primary w-100">Ver detalle</a>
+              </article>
+            </div>
+          </div>
+
+          <div
+            class="col-10 col-sm-5 mx-sm-3 col-md-3 mx-md-4 mb-5 mt-3 pt-2 pb-4 bg-light rounded-3 border border border-secondary-subtle"
+          >
+            <a href="#">
+              <img
+                src="./img/imgpokemones/009.png"
+                alt="Blastoise"
+                class="bg-body-secondary img img-fluid rounded-3 d-block"
+              />
+            </a>
+            <div class="ps-3 ps-md-1">
+              <p class="text-body-secondary mb-3">
+                <span>N.º</span>
+                0004
+              </p>
+              <h4 class="h3">Blastoise</h4>
+              <div class="badge rounded-pill text-bg-info">
+                <span>Agua</span>
+              </div>
+              <article class="text-center my-2 pt-2 pe-3 pe-md-1">
+                <a href="" class="btn btn-primary w-100">Ver detalle</a>
+              </article>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
     <footer></footer>
-</body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
 </html>

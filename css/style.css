@@ -1,0 +1,22 @@
+.img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+.colorpill{
+    background-color: rgb(135, 84, 184);
+}
+
+.colorfuergo{
+    background-color: orange;
+}
+
+main{
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.br{
+    width: 5px ;
+}

@@ -1,0 +1,14 @@
+main {
+    flex-wrap: wrap;
+    flex-grow: 1;
+  }
+
+  .imagenCarousel {
+    height: 400px;
+    object-fit: cover;
+  }
+  @media all and (min-width: 992px) {
+    .imagenCarousel {
+      height: 500px;
+      object-position: 50% 35%;
+    }

@@ -54,3 +54,13 @@ main{
         position: relative;
 }
 
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+main{
+    flex-wrap: wrap;
+    flex-grow: 1;

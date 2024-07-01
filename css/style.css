@@ -38,29 +38,3 @@ main{
     transform: translateY(-10px);
     transition: transform 0.2s;
 }
-
-.bgpoke{
-        -webkit-box-sizing: border-box;
-        -ms-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        -o-box-sizing: border-box;
-        box-sizing: border-box;
-        background: #fff url(../img/imgpokemones/container_bg.png);
-        clear: both;
-        display: block;
-        margin: 0 auto;
-        max-width: 1280px;
-        overflow: hidden;
-        position: relative;
-}
-
-
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-
-main{
-    flex-wrap: wrap;
-    flex-grow: 1;

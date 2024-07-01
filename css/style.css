@@ -10,5 +10,6 @@ main {
   @media all and (min-width: 992px) {
     .imagenCarousel {
       height: 500px;
-      object-position: 50% 35%;
+      object-position: 50% 30%;
     }
+}

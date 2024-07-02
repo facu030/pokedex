@@ -1,0 +1,98 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.imgp {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.br {
+  width: 5px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  transition: transform 0.2s;
+}
+
+.bgpoke {
+  background: #fff url(../img/imgpokemones/container_bg.png);
+}
+
+.colorpill {
+  background-color: rgb(66, 12, 66);
+}
+
+.colorfuergo {
+  background-color: orange;
+}
+
+.volador {
+  background-color: grey;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.imgcarousel {
+  height: 200px;
+  object-fit: cover;
+  object-position: 50% 30%;
+}
+
+@media all and (min-width: 992px) {
+  .imgcarousel {
+    height: 500x;
+    object-position: 50% 30%;
+  }
+  .card {
+    width: 230px;
+  }
+}
+@media all and (min-width: 730px) {
+  .imgcarousel {
+    height: 400x;
+    object-position: 40% 40%;
+  }
+}
+
+.imagenCarousel {
+  height: 400px;
+  object-fit: cover;
+}
+@media all and (min-width: 992px) {
+  .imagenCarousel {
+    height: 630px;
+    object-position: 50% 20%;
+    object-fit: cover;
+  }
+}
+
+.bgfila1{
+  background-color: rgb(225, 230, 184);
+}
+
+.bgtajet{
+  background-color: rgb(172, 212, 169);
+}
+

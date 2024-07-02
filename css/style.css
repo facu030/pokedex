@@ -1,0 +1,32 @@
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+main{
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.imgcarousel{
+    height: 200px;
+    object-fit: cover;
+    object-position: 50% 30%;
+  }
+
+  @media all and (min-width: 992px) {
+    .imgcarousel{
+      height: 500x;
+      object-position: 50% 30%;
+    }
+  }
+  @media all and (min-width: 730px) {
+    .imgcarousel{
+      height: 400x;
+      object-position: 40% 40%;
+    }
+  }
+

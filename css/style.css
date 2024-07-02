@@ -74,3 +74,15 @@ main {
     object-position: 40% 40%;
   }
 }
+
+.imagenCarousel {
+  height: 400px;
+  object-fit: cover;
+}
+@media all and (min-width: 992px) {
+  .imagenCarousel {
+    height: 630px;
+    object-position: 50% 20%;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="" />
+    <meta name="descripcion" />
+    <meta name="keywords" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Pokedex</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-danger">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white ms-md-5" href="/index.html"
+            >Pokedex</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="/index.html"
+                  >Inicio</a
+                >
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Elementos
+                </a>
+                <ul
+                  class="dropdown-menu bg-danger"
+                  aria-labelledby="MenuDeCategorias"
+                >
+                  <li>
+                    <a class="dropdown-item text-white" href="#">Agua</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#">Fuego</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#">Tierra</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#">Viento</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#">Volador</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#">Hierro</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/pages/Nosotros.html"
+                  >Sobre Nosotros</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex me-md-5" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar pokemon"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-success text-white border"
+                type="submit"
+              >
+                Buscar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="bgpoke">
+      <section class="container"></section>
+
+      <section class="container">
+        <section
+          class="row rounded-3 border border-danger border-3 my-4 py-2 bgtajet"
+        >
+          <h3 class="text-center text-success py-2 my-2 fs-1">
+            Bulbasaur N°0001
+          </h3>
+          <div class="col-12 col-md-6 col-lg-5">
+            <img
+              src="../img/imgpokemones/001.png"
+              alt="Bulbasaur"
+              class="w-100 img-fluid imgp bgfila1 rounded-3 border-3"
+            />
+            <p class="text-start fw-bold fs-4 my-3 py-2">
+              El bulbo de Bulbasaur le ayuda a defenderse de los enemigos, y
+              desde él puede disparar ataques tales como rayo solar y drenadoras
+              entre otros movimientos
+            </p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-7">
+            <section
+              class="bg-info container pb-3 mb-2 border-3 border-primary rounded-3"
+            >
+              <div class="mx-2">
+                <article class="d-flex justify-content-between p-3 mx-3">
+                  <div>
+                    <h3 class="text-light">Altura</h3>
+                    <p class="fw-bold fs-3">0,7 m</p>
+                  </div>
+                  <div>
+                    <h3 class="text-light">Categoria</h3>
+                    <p class="fw-bold fs-3">Semilla</p>
+                  </div>
+                </article>
+                <article class="d-flex justify-content-between p-3 mx-3">
+                  <div>
+                    <h3 class="text-light">Peso</h3>
+                    <p class="fw-bold fs-3">6,7 kg</p>
+                  </div>
+                  <div>
+                    <h3 class="text-light">Habilidad</h3>
+                    <p class="fw-bold fs-3">Espesura</p>
+                  </div>
+                </article>
+                <article class="d-flex justify-content-start p-3 mx-3">
+                  <div></div>
+                  <div>
+                    <h3 class="text-light">Sexo</h3>
+                    <p class="fw-bold fs-3">masculino / femenino</p>
+                  </div>
+                </article>
+              </div>
+            </section>
+            <article class="bg-secondary container-fluid my-3 py-2 rounded-3">
+              <div class="my-2 py-2">
+                <h3 class="fs-2">Tipo</h3>
+                <div class="badge rounded-pill bg-success">
+                  <span>Planta</span>
+                </div>
+                <div class="badge rounded-pill colorpill">
+                  <span>Veneno</span>
+                </div>
+              </div>
+              <div class="my-2 py-2">
+                <h3 class="fs-2">Debilidad</h3>
+                <div class="badge rounded-pill colorfuergo">
+                  <span>Fuego</span>
+                </div>
+                <div class="badge rounded-pill volador">
+                  <span>Volador</span>
+                </div>
+                <div class="badge rounded-pill bg-info">
+                  <span>Hielo</span>
+                </div>
+              </div>
+            </article>
+          </div>
+          <section class="container my-3 bg-secondary">
+            <h2 class="text-light text-start fs-3 ms-3 ps-2 my-2">
+              Evoluciones
+            </h2>
+            <div class="row">
+              <div class="col-12 col-md-4 text-center mb-4 pb-2">
+                <a href="">
+                  <img
+                    src="../img/imgpokemones/001.png"
+                    alt=""
+                    class="imgp img-fluid rounded-3"
+                  />
+                </a>
+                <div>
+                  <div>
+                    <h2 class="text-light">Bulbasaur</h2>
+                  </div>
+                  <div>
+                    <p><span class="fs-3 fw-bold">N°0001</span></p>
+                  </div>
+                  <div class="badge rounded-pill text-bg-success">
+                    <span>Planta</span>
+                  </div>
+                  <div class="badge rounded-pill colorpill">
+                    <span>Veneno</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-4 text-center mb-4 pb-2">
+                <a href="">
+                  <img
+                    src="../img/imgpokemones/002.png"
+                    alt="Ivysaur"
+                    class="imgp img-fluid rounded-3"
+                  />
+                </a>
+                <div>
+                  <div>
+                    <h2 class="text-light">Ivysaur</h2>
+                  </div>
+                  <div>
+                    <p><span class="fs-3 fw-bold">N°0002</span></p>
+                  </div>
+                  <div class="badge rounded-pill text-bg-success">
+                    <span>Planta</span>
+                  </div>
+                  <div class="badge rounded-pill colorpill">
+                    <span>Veneno</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-4 text-center mb-4 pb-2">
+                <a href="">
+                  <img
+                    src="../img/imgpokemones/003.png"
+                    alt="Venusaur"
+                    class="imgp img-fluid rounded-3"
+                  />
+                </a>
+                <div>
+                  <div>
+                    <h2 class="text-light">Venusaur</h2>
+                  </div>
+                  <div>
+                    <p><span class="fs-3 fw-bold">N°0003</span></p>
+                  </div>
+                  <div class="badge rounded-pill text-bg-success">
+                    <span>Planta</span>
+                  </div>
+                  <div class="badge rounded-pill colorpill">
+                    <span>Veneno</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <footer class="bg-danger text-light py-2 text-center">
+      <p class="mt-2">&copy;Todos los derechos reservados</p>
+    </footer>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+</html>
